@@ -24,11 +24,11 @@ cat > endpoint.py
        "script": "endpoint.py",
        "args": [
          "--auth_token",
-         "auth_token_to_access_your_server",
+         "taric",
          "--model_name",
-         "name_on_huggingface",
+         "mosaicml/mpt-7b-chat",
          "--port",
-         "port_you_want_to_use"
+         "33605"
        ],
        "interpreter": "python",
        "env": {
